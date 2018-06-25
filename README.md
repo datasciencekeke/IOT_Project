@@ -54,11 +54,7 @@ Now we will create a new folder named stream at the root of the liveStreaming fo
 執行後，於瀏覽器網址列輸入自己的IP位址＋:3000即可看到鏡頭的畫面 <br />
 `http://Your_IP_Address:3000` <br />
 
-
-
-
-
-
-
-
-步進馬達使用教學：https://www.youtube.com/watch?v=LUbhPKBL_IU&t=182s
+# 步驟四：接電路
+樹莓派GPIO參考：https://pinout.xyz/ <br />
+步進馬達使用、連接參考：https://www.youtube.com/watch?v=LUbhPKBL_IU&t=182s <br />
+人體感測器連接參考：http://iot.pcsalt.com/detecting-obstacle-with-ir-infrared-sensor-raspberry-pi-3/ <br />
