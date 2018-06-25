@@ -29,7 +29,29 @@ Check that the installation was successful, and the version number of Node.js wi
 `pi@w3demopi:~ $ node -v`
 
 # 步驟二：建立於網頁上監控鏡頭畫面的Server端檔案 
-參考教學：http://thejackalofjavascript.com/rpi-live-streaming/
+參考教學：http://thejackalofjavascript.com/rpi-live-streaming/ <br />
+在Terminal中run <br />
+`mkdir node_programs` <br />
+To step inside that folder, run <br />
+`cd node_programs` <br />
+For this post, we will create a new folder named liveStreaming and will step inside this folder. Run <br />
+`mkdir liveStreaming && cd liveStreaming` <br />
+First we will initialize a new node project here. Run <br />
+`npm init` <br />
+Fill it up as applicable. <br />
+Now, we will install express and socket.io modules on our pi. Run <br />
+`npm install express socket.io --save` <br />
+Once they are installed, create a new file named index.js. <br />
+於index.js中拷入index.js的程式碼 <br />
+Now we will create a new folder named stream at the root of the liveStreaming folder. This is where our image will be saved.
+
+# 步驟三：建立於網頁上監控鏡頭畫面的Client端檔案
+參考教學：http://thejackalofjavascript.com/rpi-live-streaming/ <br />
+在livestreaming資料夾中建立index.html檔 <br />
+於index.html中拷入index.html的程式碼 <br />
+
+
+
 
 
 
