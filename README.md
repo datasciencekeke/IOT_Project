@@ -48,7 +48,13 @@ Now we will create a new folder named stream at the root of the liveStreaming fo
 # 步驟三：建立於網頁上監控鏡頭畫面的Client端檔案
 參考教學：http://thejackalofjavascript.com/rpi-live-streaming/ <br />
 在livestreaming資料夾中建立index.html檔 <br />
-於index.html中拷入index.html的程式碼 <br />
+於index.html中拷入index.html的程式碼 <br /> 
+程式碼完成後，即可執行 <br />
+`node index.js` <br />
+執行後，於瀏覽器網址列輸入自己的IP位址＋:3000即可看到鏡頭的畫面 <br />
+`http://Your_IP_Address:3000` <br />
+
+
 
 
 
