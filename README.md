@@ -67,13 +67,13 @@ Now we will create a new folder named stream at the root of the liveStreaming fo
 # 步驟五：撰寫人體感測與鏡頭旋轉程式
 IR.py檔案即為我們主要邏輯控制的Python檔 <br />
 首先載入我們所需的套件與設定GPIO的格式 <br />
-`from picamera import PiCamera
-from gpiozero import LED
-from signal import pause
-import sys
-import RPi.GPIO as GPIO
-import time
+`from picamera import PiCamera`
+`from gpiozero import LED`
+`from signal import pause`
+`import sys`
+`import RPi.GPIO as GPIO`
+`import time`
 
-GPIO.setmode(GPIO.BCM)
-GPIO.setwarnings(False)`
+`GPIO.setmode(GPIO.BCM)`
+`GPIO.setwarnings(False)`
 
