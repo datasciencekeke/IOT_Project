@@ -54,7 +54,14 @@ Now we will create a new folder named stream at the root of the liveStreaming fo
 執行後，於瀏覽器網址列輸入自己的IP位址＋:3000即可看到鏡頭的畫面 <br />
 `http://Your_IP_Address:3000` <br />
 
-# 步驟四：接電路
+# 步驟四：接電路與鏡頭
 樹莓派GPIO參考：https://pinout.xyz/ <br />
 步進馬達使用、連接參考：https://www.youtube.com/watch?v=LUbhPKBL_IU&t=182s <br />
 人體感測器連接參考：http://iot.pcsalt.com/detecting-obstacle-with-ir-infrared-sensor-raspberry-pi-3/ <br />
+鏡頭連接參考：https://projects.raspberrypi.org/en/projects/getting-started-with-picamera <br />
+我們一共會使用樹莓派的10個Pin（BCM制）：<br />
+人體感應器使用PIN 5, 6, 13, 19, 26, 21 <br />
+馬達使用PIN 4, 17, 27, 22 <br />
+接法請參考上述連結
+
+# 步驟五：撰寫人體感測與鏡頭旋轉程式
